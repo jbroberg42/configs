@@ -17,4 +17,5 @@ function sapt {
     }
 
 set -o vi
-EDITOR=vi
+export VISUAL=vim
+export EDITOR="$VISUAL"
