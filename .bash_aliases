@@ -19,3 +19,7 @@ function sapt {
 set -o vi
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+#some machine care aliases
+alias battery='upower -i $(upower -e | grep 'BAT') | grep -E "state|to\ full|percentage"'
+alias turnoffsleep='sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
