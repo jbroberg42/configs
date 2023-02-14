@@ -1,4 +1,5 @@
 set relativenumber
+set number
 set autoindent
 set expandtab
 set shiftround
