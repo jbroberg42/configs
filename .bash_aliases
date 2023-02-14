@@ -17,4 +17,4 @@ function sapt {
     }
 
 set -o vi
-EDITOR=vim
+EDITOR=vi
