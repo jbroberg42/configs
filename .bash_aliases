@@ -16,3 +16,5 @@ function sapt {
     sudo apt update && sudo apt install $1
     }
 
+set -o vi
+EDITOR=vim
