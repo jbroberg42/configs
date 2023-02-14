@@ -1,4 +1,3 @@
-colo atom-dark
 set relativenumber
 set autoindent
 set expandtab
